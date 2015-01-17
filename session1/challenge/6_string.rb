@@ -8,4 +8,17 @@
 # odds_and_evens("abcdefg",false)   # => "aceg"
 
 def odds_and_evens(string, return_odds)
+	result = String.new
+		if return_odds == true
+			(1...string.length).step(2) do |index|
+				result << string[index]
+			end
+		else
+			(0...string.length).step(2) do |index|
+				result << string[index]
+			end
+		end
+	result		
 end
+
+#the answers used next to check the conditions and reduce the lines of code.
