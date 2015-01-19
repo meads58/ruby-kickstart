@@ -14,3 +14,12 @@
 # prime_chars? ['ab', 'cd']       # => false
 # prime_chars? ['a', 'bcd']       # => false
 # prime_chars? ['a', 'b', 'cd']   # => false
+
+def prime_chars? arr
+	total = 0
+	state = false
+	arr.each {|val| total += val.length}
+	if total.prime?
+end
+
+#puts prime_chars? ["abe","re"]
