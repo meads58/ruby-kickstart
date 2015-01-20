@@ -16,5 +16,5 @@ def alternate_words string
 	return concat 
 end
 
-alternate_words("Would a dating service on the net be frowned upon . . . ? I hope not. But even if it is, don’t let that stop you from notifying me via net mail if you start one.")#this editor doesn't support UTF-8 characters, the unicode number had to be used
+#alternate_words("Would a dating service on the net be frowned upon . . . ? I hope not. But even if it is, don’t let that stop you from notifying me via net mail if you start one.")#this editor doesn't support UTF-8 characters, the unicode number had to be used
 #in the regex to pick up apostrophes.
