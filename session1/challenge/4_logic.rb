@@ -10,6 +10,7 @@
 # grade(15, true)   # => "B"
 
 def grade(num_books, reads_books)
+<<<<<<< HEAD
 	if reads_books == true
 		if num_books < 10 then 
 			"C"
@@ -27,4 +28,6 @@ def grade(num_books, reads_books)
 			"B"		
 		end
 	end
+=======
+>>>>>>> be3cc0acb3f7e89b5b6ff3fafd78463debe9ef1f
 end

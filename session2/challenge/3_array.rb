@@ -7,6 +7,7 @@
 
 class String
   def every_other_char
+<<<<<<< HEAD
 		@skip = ''
 		array_of_chars = self.chars #self explicitly refers to the object that called this method e.g. the object "abc". You don't need self
 		#as array_of_chars = chars will work just the same. Here the object that called this method will have chars applied to it.							
@@ -25,3 +26,7 @@ end
 
 
 #puts "".every_other_char #in the "abc" object
+=======
+  end
+end
+>>>>>>> be3cc0acb3f7e89b5b6ff3fafd78463debe9ef1f

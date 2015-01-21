@@ -5,6 +5,7 @@
 # pirates_say_arrrrrrrrr("Pirates say arrrrrrrrr")        # => "arrrrrrrr"
 
 def pirates_say_arrrrrrrrr(string)
+<<<<<<< HEAD
 	result = ""
 	len = string.size - 1
 	len.times do |index|
@@ -14,4 +15,6 @@ def pirates_say_arrrrrrrrr(string)
 	end
 	result
 
+=======
+>>>>>>> be3cc0acb3f7e89b5b6ff3fafd78463debe9ef1f
 end

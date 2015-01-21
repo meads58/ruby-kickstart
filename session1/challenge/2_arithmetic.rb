@@ -9,9 +9,12 @@
 # arithmetic2(-6, -7)  # => -3.5
 
 def arithmetic2(a, b)
+<<<<<<< HEAD
 	if a < b == true
 		return a / 2.0
 	else
 		return b / 2.0
 	end
+=======
+>>>>>>> be3cc0acb3f7e89b5b6ff3fafd78463debe9ef1f
 end

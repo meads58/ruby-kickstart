@@ -7,6 +7,7 @@
 # Standard input will be like "9 2\n" and will expect you to print
 # "11\n7\n18\n" to standard output.
 
+<<<<<<< HEAD
 def sum_difference_product 
 	a, b = gets.split.map {|num| num.to_i} #splits creates an array of values. Using map we can then assing the values to the variables 
 	puts a + b
@@ -18,3 +19,8 @@ def sum_difference_product
 	
 end
 
+=======
+def sum_difference_product
+  # your code goes here
+end
+>>>>>>> be3cc0acb3f7e89b5b6ff3fafd78463debe9ef1f

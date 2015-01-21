@@ -8,9 +8,13 @@
 # ten_twenty(6) # => 10
 
 def ten_twenty(n)
+<<<<<<< HEAD
   if n.even? == true
   	return 10
   else
   	return 20
   end
+=======
+  # your code goes here
+>>>>>>> be3cc0acb3f7e89b5b6ff3fafd78463debe9ef1f
 end

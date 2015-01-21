@@ -14,6 +14,7 @@
 # prime_chars? ['ab', 'cd']       # => false
 # prime_chars? ['a', 'bcd']       # => false
 # prime_chars? ['a', 'b', 'cd']   # => false
+<<<<<<< HEAD
 
 def prime_chars? arr
 	total = 0
@@ -26,3 +27,5 @@ def prime_chars? arr
 end
 
 #puts prime_chars? []
+=======
+>>>>>>> be3cc0acb3f7e89b5b6ff3fafd78463debe9ef1f

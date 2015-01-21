@@ -5,6 +5,7 @@
 # got_three? ['a', 'a', 'b']  # => false
 # got_three? ['a', 'a', 'a']  # => true
 # got_three? [1, 2, 1, 1]     # => false
+<<<<<<< HEAD
 
 def got_three? arr
 	arr.each_cons(3){|x| 
@@ -13,3 +14,5 @@ def got_three? arr
 end
 
 puts got_three?([])
+=======
+>>>>>>> be3cc0acb3f7e89b5b6ff3fafd78463debe9ef1f

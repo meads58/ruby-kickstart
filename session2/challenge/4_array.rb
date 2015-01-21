@@ -7,6 +7,7 @@
 # get_squares [25, 4, 9, 6, 50, 16, 5] # => [4, 5]
 
 # This time you will have to define the method, it's called: get_squares
+<<<<<<< HEAD
 
 def get_squares arr
 	result = []
@@ -17,3 +18,5 @@ def get_squares arr
 end
 
 #puts gets_squares [9,2, 3]
+=======
+>>>>>>> be3cc0acb3f7e89b5b6ff3fafd78463debe9ef1f

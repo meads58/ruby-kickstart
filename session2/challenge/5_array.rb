@@ -13,6 +13,7 @@
 # mod_three [7]  # => [1]
 #
 # mod_three [0,1,2,3,4,5,6,7] # => [1, 2, 1, 2, 1]
+<<<<<<< HEAD
 
 #second attmpt using the select method to only filter out values
 
@@ -35,3 +36,5 @@ def mod_three arr
 end
 =end
 puts mod_three [4, 5, 6]
+=======
+>>>>>>> be3cc0acb3f7e89b5b6ff3fafd78463debe9ef1f
